@@ -39,3 +39,6 @@ The following tools and packages were used throughout the analysis:
 * **ggplot2**: R package for data visualization.
 * **RColorBrewer**: R package for color palettes, used with pheatmap.
 
+## Analysis
+
+The Jupiter notebooks used for the analysis can be found in the notebooks folder!
