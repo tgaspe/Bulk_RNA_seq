@@ -1,1 +1,53 @@
-# Bulk_RNA_seq
+# Bulk RNA-seq Assignment
+
+This assignment was completed as part of the *Comparative and Regulatory Genomics* course in the Master of Bioinformatics program at KU Leuven.
+
+## Overview
+
+In this project, I performed a bulk RNA-seq analysis by reproducing an experiment from a published paper, but using only a subset of the original dataset. The goal of the assignment was to learn and apply standard RNA-seq data processing and analysis techniques, including:
+
+* Preprocessing and quality control
+* Alignment and quantification
+* Differential gene expression analysis
+* Functional enrichment analysis
+
+## Dataset
+
+All processed data can be found here:
+
+https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA1142455&o=acc_s%3Aa
+
+Paper can be found here: 
+
+https://onlinelibrary.wiley.com/doi/full/10.1111/gtc.13161
+
+## Tools & Packages Used
+
+The following tools and packages were used throughout the analysis:
+
+* **FastQC**: For quality control of FASTQ files.
+* **STAR**: For read alignment to the reference genome.
+* **samtools**: For processing and sorting BAM files.
+* **sra-tools**: For downloading FASTQ files from the Sequence Read Archive (SRA).
+* **subread**: For gene quantification using featureCounts.
+* **R** (version 3.6.3 or compatible): Base environment for statistical analysis.
+* **DESeq2**: R package for differential expression analysis.
+* **pheatmap**: R package for heatmap visualization.
+* **ClusterProfiler**: R package for functional enrichment analysis.
+* **ggplot2**: R package for data visualization.
+* **RColorBrewer**: R package for color palettes, used with pheatmap.
+
+## How to Reproduce
+
+To reproduce the analysis:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/tgaspe/Bulk_RNA_seq.git
+   cd Bulk_RNA_seq
+   ```
+
+2. Follow the instructions in the in the Jupyter notebooks to run the analysis step by step.
+
+
