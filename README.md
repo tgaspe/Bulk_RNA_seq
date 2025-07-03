@@ -11,6 +11,8 @@ In this project, I performed a bulk RNA-seq analysis by reproducing an experimen
 * Differential gene expression analysis
 * Functional enrichment analysis
 
+This study investigates how regular exercise suppresses liver cancer in mice by analyzing gene expression changes. It compares exercised and non-exercised mice in both healthy and tumorous liver tissues to uncover differently expressed genes.
+
 ## Dataset
 
 All processed data can be found here:
@@ -36,18 +38,4 @@ The following tools and packages were used throughout the analysis:
 * **ClusterProfiler**: R package for functional enrichment analysis.
 * **ggplot2**: R package for data visualization.
 * **RColorBrewer**: R package for color palettes, used with pheatmap.
-
-## How to Reproduce
-
-To reproduce the analysis:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/tgaspe/Bulk_RNA_seq.git
-   cd Bulk_RNA_seq
-   ```
-
-2. Follow the instructions in the in the Jupyter notebooks to run the analysis step by step.
-
 
